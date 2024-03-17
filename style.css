@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 44, 58);
+    
+    
+
+}
+header{
+    background-image: url(../Website-simple-test/img/ai-7977960_1280.jpg);
+    background-position: center;
+    background-size: auto;
+    height: 250px;
+    display: flex;
+}
+.container{
+    height:130px;
+    width: 250px;
+    color: white;
+    background: rgb(240, 240, 240,0.2);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+nav{
+    position: absolute;
+    top: 34%;
+    margin-left: 80%;
+ 
+}
+nav>a{
+    text-decoration: none;
+    margin: 4px;
+    color: white;
+    
+}
+nav>a:hover{
+    color:tomato;
+    text-decoration:underline;
+}
+.main1>h1{
+    animation: y 10s infinite linear;
+}
+.main1{
+    
+    box-shadow: 3px  3px 5px white ;
+    border-radius: 20px;
+    height: 250px;
+    width: 30%;
+    background-color: white;
+    color: rgb(3, 44, 58);;
+    margin-top: 8%;
+    font-size: 33px;
+    padding: 1px;
+    margin-left: 15%;
+    animation: y 10s infinite linear;
+    
+}
+.main1:hover{
+    box-shadow: 5px  5px 10px tomato ;
+    color:tomato;
+    
+}
+.main{
+    display: flex;
+   
+}
+.main2{
+    margin-top: 16.5%;
+    margin-left: 5%;
+    width: 37%;
+    color: white;
+}
+
+.conteudo2{
+   
+}
+.magia{
+    display: flex;
+}
+.who>h2{
+font-size: 30px;
+margin-top: 10%;
+color: white;
+background-color: tomato;
+height: 90px;
+}
+
+.md{
+    margin-top: 5%;
+    box-shadow: 5px 5px 5px turquoise;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 12%;
+    color:turquoise;
+}
+.md:hover{
+    border: 1px solid rgb(3, 44, 58);
+    background-color: rgb(3, 44, 58);
+    box-shadow: 5px  5px 10px tomato ;
+    color: tomato;
+
+}
+
+#im{
+    
+    width: 450px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 10%;
+    animation: x 10s infinite linear;
+    
+   
+   
+}
+@keyframes y {
+    50%{
+        transform: rotateY(360deg)
+    }
+}
+@keyframes x {
+    50%{
+        transform: rotateY(360deg)
+    }
+}
+#im:hover{
+    opacity: 50%;
+}
+
+.Tecnologias>ul>li{
+    margin-top: 5%;
+    margin-left: 13%;
+    font-size: 30px;
+    color: turquoise; 
+}
+.h{
+    
+    
+    width: 20%;
+    height: 290px;
+    background-color: white;
+    color:rgb(3, 44, 58);;
+    object-fit: cover;
+    object-position: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+    box-shadow: 5px  5px 10px black ;
+}
+.h:hover{
+    
+    box-shadow: 5px 5px 5px turquoise;
+}
+.cs{
+   
+    
+    width: 20%;
+    height: 290px;
+    background-color: white;
+    color:rgb(3, 44, 58);
+    object-fit: cover;
+    object-position: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+    box-shadow: 5px  5px 10px black ;
+}
+.cs:hover{
+    box-shadow: 5px 5px 5px turquoise;
+}
+.j{
+  
+   
+    width: 20%;
+    height: 290px;
+    background-color: white;
+    color:rgb(3, 44, 58);
+    object-fit: cover;
+    object-position: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+    box-shadow: 5px  5px 10px black ;
+}
+.j:hover{
+    box-shadow: 5px 5px 5px turquoise;
+}
+.t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    height: 350px;
+    background-color: aliceblue;
+    width: 80%;
+   
+}
+.h>h2{
+    font-size: 30px;
+    text-align: center;
+
+}
+.cs>h2{
+    font-size: 30px;
+    text-align: center;
+}
+.j>h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+#ultimanav{
+    margin-top: 2%;
+    height: 300px;
+    color: white;
+    background-color: tomato;
+}
+
+.redes>p>img{
+    height: 25px;
+    width: 25px;
+   
+}
+.redes>p>a{
+    
+    text-decoration: none;
+    color: white;  
+}
+.end{
+    margin: auto;
+    display: flex;
+}
+.redes{
+    margin-right: 40%;
+    margin-left: 10%;
+}
+
+.f{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 23%;
+    text-align: center;
+    background-color: rgb(3, 44, 58);
+}
